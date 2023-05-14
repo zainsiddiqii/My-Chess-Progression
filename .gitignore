@@ -1,0 +1,5 @@
+*.env
+\chess_venv\
+\.ipynb_checkpoints\
+quick_review.py
+WebScraper.ipynb 
