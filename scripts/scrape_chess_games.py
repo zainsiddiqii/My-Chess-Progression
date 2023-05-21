@@ -62,10 +62,10 @@ for i, o in enumerate(order):
     games['game_link'] = game_links
 
     if i == 0:
-        filepath = Path('\data\early_career_games.csv')
+        filepath = Path('data\early_career_games.csv')
         filepath.parent.mkdir(parents=True, exist_ok=True)
         games.to_csv(filepath)
     elif i == 1:
-        filepath = Path('\data\late_career_games.csv')
+        filepath = Path('data\late_career_games.csv')
         filepath.parent.mkdir(parents=True, exist_ok=True)
         games.to_csv(filepath)
