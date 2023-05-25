@@ -1,3 +1,5 @@
 *.env
+__pycache__
 \chess_venv\
 \.ipynb_checkpoints
+dont_push.ipynb 
