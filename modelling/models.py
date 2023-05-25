@@ -9,7 +9,7 @@ import xgboost as xgb
 
 from sklearn.metrics import accuracy_score, recall_score, confusion_matrix
 
-from dataset import dataset
+from modelling.dataset import dataset
 
 numerical_vars = ['moves', 'my_rating', 'opponent_rating', 'my_accuracy', 'opponent_accuracy', 'rating_difference']
 ohe_vars = ['time_format_Blitz', 'time_format_Rapid', 'time_format_Bullet', 'colour_Black', 'colour_White']
