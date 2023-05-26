@@ -19,12 +19,12 @@ The structure of the project is as follows:
   - scripts
     - scrape_chess_games.py
     - review_games.py
-- .gitignore
-- Data_Cleaning.ipynb
-- Insights.ipynb
-- ML_Preprocessing.ipynb
-- WinLoss_Modelling.ipynb
-- requirements.txt
+  - .gitignore
+  - Data_Cleaning.ipynb
+  - Insights.ipynb
+  - ML_Preprocessing.ipynb
+  - WinLoss_Modelling.ipynb
+  - requirements.txt
 
 The `data` subfolder contains all of the pre-processed as well as the processed data after cleaning and preparing for modelling.
 The `modelling` subfolder contains the `models.py` file which contains the classes and methods for implementing the models, as well as the `dataset.py` file containing the methods
