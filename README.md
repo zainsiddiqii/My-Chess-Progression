@@ -1,5 +1,7 @@
 # My-Chess-Progression
 
+Please find an interactive dashboard analysing my games on [Tableau](https://public.tableau.com/app/profile/zain.ibrahim.siddiqi/viz/MyChessProgression/Dashboard1)!
+
 I scrape data from my games played on chess.com. I use `selenium` to scrape the data from the library page of my profile. 
 Anyone with a chess.com account can use the scripts to download their own data. One important note is the `review_games.py` script, which first reviews every game I have
 played before then executing the `scrape_chess_games.py` file. I am a gold chess.com member and thus have unlimited game reviews. The only piece of information I obtain
